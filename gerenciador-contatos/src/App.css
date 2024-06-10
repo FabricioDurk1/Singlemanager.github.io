@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #007bff;
+  border-radius: 6px;
+  width: 300px; /* Defina a largura desejada */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.contato-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 10px 0;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contato-info {
+  margin-bottom: 10px;
+}
+
+.contato-info strong {
+  font-weight: bold;
+}
+
+.contato-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editar-btn,
+.deletar-btn {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.editar-btn:hover,
+.deletar-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
